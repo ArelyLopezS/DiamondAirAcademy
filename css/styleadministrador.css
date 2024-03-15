@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to left, #eef6fc, #9dbaeb);
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 3px 20px 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #8894c6; /* Color de texto rosado */
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px; /* Ajusta el margen inferior del título */
+}
+
+h2{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    color: #E1AFD1;
+}
+
+div p {
+    color: #333; /* Color de texto gris oscuro */
+}
+
+button{
+    font-family: 'Outfit', sans-serif;
+    background-color: #7469B6;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    margin-bottom: 12px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+button:hover{
+    font-family: 'Outfit', sans-serif;
+    background-color:#506b93;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+form{
+    padding: 3px;
+    margin: 30px;
+    font-size: 17px;
+}
+
+form label{
+    padding: 3px;
+    display: block;
+    margin-bottom: 2px; /* Agrega espacio debajo de cada etiqueta */
+}
+
+form input {
+    margin-bottom: 15px; /* Agrega espacio debajo de cada campo de entrada y botón */   
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+form p {
+    margin-top: 150px; /* Agrega espacio encima del párrafo con el enlace */
+}
+/* Añade estilos para el contenedor principal de botones */
+
+/* Añade estilos para cada botón */
+.button-item {
+    text-decoration: none;
+    color: inherit;
+    margin: 10px; /* Ajusta el espacio entre los botones según sea necesario */
+}
+
+.button-item div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-item img {
+    width: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-bottom: 10px; /* Espaciado entre la imagen y el texto */
+}
+
+/* Resto de tus estilos CSS... */
+
+/* Estilos para la cuadrícula de encuestas */
+.button-container {
+    display: flex;
+    flex-direction: row; /* Ajusta para alinear los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-top: 20px; /* Ajusta el espacio entre el título y los elementos */
+    box-shadow: none;
+    
+}
+
+/* Resto de tus estilos CSS... */
+
+.menu-box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px; /* Ajusta el espacio entre las cajas */
+    max-width: 300px; /* Ajusta el ancho máximo si es necesario */
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    background-color:#9dbaeb; /* Cambié el color de fondo para resaltar */
+}
+
+.menu-box a {
+    text-decoration: none; /* Aplica text-decoration solo a los enlaces dentro de .menu-box */
+}
+
+.menu-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-box button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    background-color: #407ee9;
+    font-size: 20px;
+}
+
+.menu-box button:hover{
+    font-family: 'Outfit', sans-serif;
+    background-color:#506b93;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+/*Registros Alumnos*/
+
+#tabla div{
+    box-shadow: none;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos para las celdas de encabezado */
+th {
+    background-color:#e4d4f4;
+    color:#7469B6;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para las celdas de datos */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/* Estilo alternativo para filas */
+tr:nth-child(even) {
+    background-color: #fbf9ff;
+}
+
+/* Estilo al pasar el ratón sobre una fila */
+tr:hover {
+    background-color: #c7c4e4;
+}
+
+table a{
+    text-decoration: none;
+    color:#333
+}
+
+table a:hover{
+    color:#ff3dc2
+}
+

@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to left, #f8eefc, #a99deb);
+}
+
+#logo {
+    max-width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 10px; /* Agrega un margen a la derecha del logo para separarlo del texto */
+}
+
+nav {
+    background-color: #7469B6; /* Color de fondo celeste */
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px; /* Agrega un margen superior */
+    font-size: 22px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Mueve los elementos al extremo derecho */
+}
+
+nav ul li {
+    margin-left: 20px; /* Ajusta el espacio entre los elementos */
+}
+
+
+nav ul li a:hover{
+    color:#ff88d9;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    font-weight: bold;
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 3px 20px 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #AD88C6; /* Color de texto rosado */
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px; /* Ajusta el margen inferior del título */
+}
+
+h2{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    color: #E1AFD1;
+}
+
+div p {
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Agrega más estilos según sea necesario */
+
+button{
+    font-family: 'Outfit', sans-serif;
+    background-color: #7469B6;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+button:hover{
+    font-family: 'Outfit', sans-serif;
+    background-color: #3e3280;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    margin-bottom: 12px;
+}
+
+form{
+    padding: 3px;
+    margin: 30px;
+    font-size: 17px;
+}
+
+form label{
+    padding: 3px;
+    display: block;
+    margin-bottom: 2px; /* Agrega espacio debajo de cada etiqueta */
+}
+
+form input {
+    margin-bottom: 15px; /* Agrega espacio debajo de cada campo de entrada y botón */   
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+form p {
+    margin-top: 150px; /* Agrega espacio encima del párrafo con el enlace */
+}
+
+#nosotros{
+    text-align: center;
+}
+
+#nosotros img, #eventos img, #contacto img{
+    width: 60px;
+    align-items: center;
+    margin: 0%;
+    margin-bottom: 0%;
+}
+
+#nosotros {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior del contenedor principal */
+}
+
+
+#nosotros img {
+    margin-bottom: 10px; /* Ajusta el margen inferior de la imagen */
+}
+
+#nosotros p {
+    margin-top: 10px; /* Ajusta el margen superior del párrafo */
+}
+
+/* Inicio */
+
+#inicio,
+#inicio div {
+    background-color: transparent; /* Establece el color de fondo a transparente */
+    box-shadow: none; /* Elimina la sombra del div con id "inicio" */
+    max-width: max-content;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0; /* Ajusta el margen superior a 0 para pegar el contenedor a la barra de navegación */
+}
+
+#inicio h1,
+#inicio p {
+    color: #fff;
+    text-align: left;
+    margin: 2px;
+}
+
+#inicio h1 {
+    font-size: 80px;
+}
+
+#inicio p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#inicio img {
+    width: 350px; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+    margin: 0;
+    position: relative; 
+}
+
+#contenedor {
+    display: flex;
+    width: max-content;
+    align-items: center;
+}
+
+#contenedor #texto {
+    width: 70%; /* Ajusta el ancho del texto */
+}
+
+#bailarina {
+    margin: 0;
+    padding-bottom: 0;
+    width: 40%; /* Ajusta el ancho de la imagen */
+    position: relative;
+}
+
+
+
+#texto{
+    text-align: left;
+}
+
+#texto button{
+        font-size: 20px;
+}
+
+/* Inicio */
+
+#contactanos,
+#contactanos div {
+    background-color: transparent; /* Establece el color de fondo a transparente */
+    box-shadow: none; /* Elimina la sombra del div con id "inicio" */
+    max-width: 900px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0; /* Ajusta el margen superior a 0 para pegar el contenedor a la barra de navegación */
+}
+
+#contactanos h1,
+#contactanos p {
+    color: #fff;
+    text-align: left;
+    margin-top: 2px;
+}
+
+#contactanos h1 {
+    font-size: 50px;
+}
+
+#contactanos p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#contactanos img {
+    width: 400px; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+    margin: 0;
+    position: relative; 
+}
+
+
+/* Contacto */
+
+section{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+section img{
+    width: 100px;
+}
+
+#contactos p{
+    font-size: 25px;
+}
+
+#contactos div{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: transparent; /* Color de fondo blanco */
+    padding: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+
+.iconos-redes-sociales {
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+}
+
+.iconos-redes-sociales a {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a i {
+    color: #ff88d9;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid #7469B6;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: #7469B6;
+}
